@@ -14,6 +14,9 @@ from eda import graph_CBT_LA
 
 
 def main(targets):
+    '''
+    store the plot(EDA) of the data on the root
+    '''
     if 'test' in targets:
         with open('config/data-params.json') as fh:
             data_cfg = json.load(fh)

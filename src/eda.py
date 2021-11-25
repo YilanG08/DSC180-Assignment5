@@ -26,7 +26,8 @@ def graph_CBT_LA(total,rows):
         cleaned = clean_data(data,rows)
         total[i] = find_cycle(cleaned)
         plt.plot(total[i].mean(axis=1))
-    plt.show(block=True)
+    #plt.show(block=True)
+    plt.savefig('graph_data.png')
     return 
 
 
