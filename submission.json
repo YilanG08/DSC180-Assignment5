@@ -1,0 +1,5 @@
+{
+    "dockerhub-id": "yilanguo08/dsc180-assignment5:latest",
+    "build-script": "python run.py test"
+}
+
